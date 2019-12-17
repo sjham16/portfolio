@@ -1,0 +1,51 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-size: 18px;
+	margin: 0px;
+}
+
+/*navigation bar styling*/
+
+h1{
+	font-family: "Comic Sans";
+	font-size: 50px;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 10pt;
+	padding-right: 10pt;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: right;
+	padding-right: 10pt;
+}
+nav li{
+	font-size: 25px;
+	display: inline-block;
+	padding-right: 2pt;
+}
+
+nav a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #BEEEEF;
+
+	background: linear-gradient(to right, #000, #000);
+	background-repeat: no-repeat;
+	background-size: 0 100%;
+	transition: background-size 1s 0s;
+	padding: 3px 3px;
+}
+nav a:hover{
+	color: #000;
+	transition: 0.5s;
+	background-size: 100% 100%;
+	cursor: pointer;
+	opacity: 1;
+}
